@@ -31,11 +31,13 @@ public class MainController {
     @RequestMapping("/")
     public String index() {
 
+        /*
         String email = "wj402@naver.com";
         String subject = " 안녕하세요. 박찬성입니다.";
         String text = "<p>안녕하세요</p> <p>반갑습니다.</p>";
 
         mailComponents.sendMail(email, subject, text);
+        */
 
         return "index";
     }
